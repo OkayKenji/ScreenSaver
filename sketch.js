@@ -4,10 +4,10 @@ let bias = 0;
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 	background(0);
-	for (let i = 0 ; i < 2 ; i++ ) {
+	for (let i = 0 ; i < 50 ; i++ ) {
 		randomWalkerArr.push(new walker(width/2,height/2));
   }
-  for (let i = 0 ; i < 0 ; i++ ) {
+  for (let i = 0 ; i < 10 ; i++ ) {
 		eraserArr.push(new eraser(random(width), random(height)));
   }
   
