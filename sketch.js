@@ -4,7 +4,7 @@ let bias = 0;
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 	background(0);
-	for (let i = 0 ; i < 500 ; i++ ) {
+	for (let i = 0 ; i < 25 ; i++ ) {
 		randomWalkerArr.push(new walker(width/2,height/2));
   }
   for (let i = 0 ; i < 10 ; i++ ) {
